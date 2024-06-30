@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/server-info")
-public class ServerInfo {
+public class ServerInfoController {
   @RequestMapping("/health-check")
   ResponseEntity<String> healthCheck() {
     return ResponseEntity.ok("Response from server!");

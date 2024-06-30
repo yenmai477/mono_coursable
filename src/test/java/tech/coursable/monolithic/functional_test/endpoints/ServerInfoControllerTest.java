@@ -1,4 +1,4 @@
-package tech.coursable.monolithic.controller;
+package tech.coursable.monolithic.functional_test.endpoints;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +13,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 @WebMvcTest
 @RunWith(SpringRunner.class)
-public class ServerInfoTest {
+public class ServerInfoControllerTest {
 
   @Autowired
   private MockMvc mvc;
