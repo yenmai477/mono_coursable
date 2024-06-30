@@ -7,7 +7,6 @@ on:
     branches:
       - '**'
 
-# build for me CI to run unit test and sonar cloud with spring boot and maven for github actions
 jobs:
   build:
     name: Build
